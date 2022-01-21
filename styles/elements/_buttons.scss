@@ -1,0 +1,44 @@
+.btn{
+    border-radius: 10px;
+    padding: 1vh 2vw;
+
+    // font-size: 16px;
+    transition: all .5s;
+    &.ghost{
+        //    @extend .btn;
+        border: 3px solid $color7;
+        &.discover{
+            color: white;
+        }
+        &:hover{
+            background: linear-gradient($retro) ;
+        }
+    }  
+    &.blink{
+        animation: button-appear 3s linear 0s infinite alternate forwards;
+        background-color: $color8;
+    } 
+    &.addtocart{
+        background-color: $color1;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    &.connexion{
+        &:hover{
+            color: $color1;
+            font-size: 1.1em;
+        }
+    }
+}
+
+
+@keyframes button-appear{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}

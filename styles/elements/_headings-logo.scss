@@ -1,0 +1,111 @@
+.Lelogo{
+    font-family: $font;
+    font-weight: $Medium;
+    font-size: 3rem;
+    .retro{
+        background:-webkit-linear-gradient($retro);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+    .r{
+        font-size: 3.5rem;
+    }
+    .light{
+        color: $color5;
+        font-size: 3.5rem;
+ 
+    }
+    .futur{
+        background:-webkit-linear-gradient($retro2);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+
+    }
+
+    
+}
+.white{
+    color: $white;  
+}
+.hero-p{
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+.hero-h2{
+        font-size: 2em;
+        font-weight: 500;
+    }
+.fw-md{
+        font-weight: $Semi-bold;
+    }  
+    
+h2{
+    font-size: 1.5em;
+    font-weight: $Bold;
+    &.exclusif{
+        text-transform: uppercase;
+    }
+
+}    
+h3{
+    font-weight: $Bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background:-webkit-linear-gradient($retro);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+h4{
+    font-weight:$Bold;
+}
+h5{
+    font-weight: $Bold;
+}
+li{
+    font-weight: $Bold;
+}
+.up{
+    li{
+        &:hover{
+            color: $color6;
+            transform: scale(1.2);
+        }
+    }
+}
+
+p, a{
+    font-weight: $Semi-bold;
+}
+
+.logo-footer{
+    font-weight: $Bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    .retro{
+        background:-webkit-linear-gradient($retro);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+ 
+    .light{
+        color: $color5;    
+    }
+    .futur{
+        background:-webkit-linear-gradient($retro2);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+
+    }
+
+        
+    
+
+}

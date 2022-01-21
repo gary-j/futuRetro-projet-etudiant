@@ -1,0 +1,168 @@
+.index-body{
+    // background-image: url('../assets/illustrations/efe-kurnaz-RnCPiXixooY-unsplash.jpg');
+    // background-position: center;
+    // background-size:cover;
+    z-index: -1;
+   
+    .hero{
+        // border: 2px solid green;
+        .video-container{
+            // border: 1px solid red;
+            position: relative;
+        
+            .video{
+                width: 100%;
+            }
+            .voverlay{              //on veut la div de la même largeur que header avec padding pour aligner son contenu
+                position: absolute;
+                // border: 2px solid blue;
+                width: calc(100vw - (100vw - 1280px) - 4vw); //car padding .wrap-resp = 0 2vw
+                height: 100%;
+                top: 0;
+                left: calc(((100vw - 1280px) / 2) + 2vw);       //car padding .wrap-resp = 0 2vw
+                // background-color: rgba(143, 98, 53, 0.557);
+                p{
+                    position: absolute;
+                    bottom:20%;
+                    left: 0;
+                }
+                h2{
+                    position: absolute;
+                    bottom:10%;
+                    left:0;
+                }
+                a{
+                    position: absolute;
+                    right: 0;
+                    bottom: 15%;
+                }
+            }
+        }    
+    }
+    // STYLE DE LA PRESENTATION
+    .featuring{
+        width: 100%;
+        padding-top: 8vh;
+
+        background-color: white;
+        .titre-section{
+            // border: 2px solid orange;
+            text-align: center;
+        }
+        .flex-desc{
+            padding-top: 4vh;
+            display: flex;
+            div{
+                flex: 1;
+            }
+            div:first-child{
+                text-align: right;
+                border: 2px solid transparent;
+                p:first-of-type{
+                    padding-bottom: 2vh;
+                }
+            }
+            div:nth-of-type(2){
+                // border: 2px solid blue;
+                background-image: url('../assets/illustrations/produits/01-flaneurz-jordan.jpg'); //je remonte que d'un seul dossier, car c'est .app.css qui "va chercher"
+                background-size: cover;
+                background-position: center;
+                transition: all 0.7s;
+
+                
+            }
+            div:nth-of-type(2):hover{
+                // border: 2px solid pink;
+                transition: all 0.7s;
+                background-image: url('../assets/illustrations/produits/02-flaneurz-jordan.jpg'); //je remonte que d'un seul dossier, car c'est .app.css qui "va chercher"
+                background-size: cover;
+                background-position: center;
+                
+            }  
+            div:last-of-type{
+                border: 2px solid transparent;  
+                p:first-of-type{
+                    padding-bottom: 2vh;
+                }
+            }
+
+        }
+        // Le lien "découvrir savoir-faire
+        .bottom{
+            text-align: center;
+            padding-top: 2vh;
+            a{
+                text-transform: uppercase;
+                font-weight: $Bold;
+                background:-webkit-linear-gradient($retro);
+                background-clip:text;
+                -webkit-background-clip:text;
+                color:transparent;
+
+            }
+            a:hover{
+                text-transform: uppercase;
+                background:-webkit-linear-gradient($futur);
+                background-clip:text;
+                -webkit-background-clip:text;
+                color:transparent;
+            }
+        }
+    }
+    // PRODUIT VEDETTE
+    .vedette{
+        width: 100%;
+        padding-top: 8vh;
+        // background-color: pink;
+       .titre-section{
+        // border: 2px solid orange;
+        text-align: center;
+       }
+       .flex-vedette{
+           display: flex;
+           .left{
+                // border: 2px solid rgb(0, 255, 55);
+                flex: 0 0 50% ;
+                text-align: center;
+                position: relative;
+                .product{
+                    // border: 2px solid rgb(0, 204, 255);
+                    position: absolute;
+                    top: 20%;
+                    width: 100%;
+                }
+                .boutons{
+                    // border: 2px solid blue;
+                    position: absolute;
+                    top: 50%;
+                    width: 100%;
+                    .btn{
+                        // border: 2px solid blue;
+                        display: flex;
+                        justify-content: space-around;
+                        // a{
+                        //     // flex: 1;
+                        // }
+                   }
+                }    
+           }
+           .right{
+            //    border: 2px solid fuchsia;
+            //    flex: 0 0 50%;
+                width: calc((100vw - (100vw - 1280px) - 4vw) / 2); 
+               .slider-for{
+                   img{
+                    width: 100%;    
+                   }
+               }
+               .slider-nav{
+                //    border: 2px solid green;
+                img:hover{
+                    border: 2px solid $color8;
+                }   
+               }
+           }
+       }
+    }
+   
+}

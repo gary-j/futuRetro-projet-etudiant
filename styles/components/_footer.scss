@@ -1,0 +1,57 @@
+.site-footer{
+    padding-top: 4vh;
+    .up{
+        // border: 2px solid red;
+        display: flex;
+        width: 100%;
+        padding-bottom: 4vh;
+        justify-content: space-between;
+        .us{
+            // border: 2px solid green;
+            // flex: 1;
+    
+        }
+        .legals{
+            // border: 2px solid green;
+            // flex: 1;
+        }
+        .infos{
+            // border: 2px solid green;
+            // flex: 1;
+            
+        }
+        .socials{
+            // border: 2px solid green;
+            // flex: 1;
+        }
+    }
+    .down{
+        .bottom{
+            // border: 2px solid orange; 
+            display: flex;  
+            width: 100%; 
+            align-items: center;
+            margin: 4vh 0;
+           .copyright{
+                // border: 2px solid black;
+               flex: 1;
+               .coeur{
+                   font-size: 0.7em;
+               }
+           }
+           .payments{
+                // border: 2px solid black;
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+                li{
+                // border: 2px solid orangered;
+                float: left;    
+               }  
+           }
+        }
+
+    }
+    
+
+}

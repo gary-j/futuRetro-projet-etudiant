@@ -1,0 +1,51 @@
+.site-header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    // border: 2px solid palevioletred;
+    background-color: rgba(0, 0, 0, 0.797);
+    border-radius: 10px;
+    width: 100%;
+    // display: block;
+    z-index: 99;
+    
+    .logo{
+        // border: 2px solid green;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .header-menu{
+        width: 100%;
+        // border: 2px solid black;
+        // background-color: rgba(255, 255, 255, 0.79);
+
+        // height: 16vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .currency{
+            // border: 2px solid $main-color;
+            flex-basis: content;
+        }
+        .navigation{
+            // background-color: white;
+            flex-basis: content;
+            display: flex;
+            margin-left: 4vw;
+            li{
+                // border: 2px solid $main-color;
+                float: left;
+                padding: 0 2vw;
+                a{
+                    padding: 0 2vw;
+                }
+            }
+        }
+        .connect{
+            // border: 2px solid $main-color;
+
+            flex-basis: content;
+        }      
+    }
+} 

@@ -1,0 +1,21 @@
+// VARIABLES COULEURS COMPLEMENTAIRES //
+
+$color1 : #00f5d3;
+$color2 : #f50021c9;
+$color3 : #23F500;
+$color4 : #D200F5;
+$color5 : #F5D200;
+$color6 : #0023f5;
+$color7 : #ffffff;
+$color8 : #ff2947;
+$main-color :#000000;
+$white: #ffffff;
+
+// DEGRADES
+
+$present : linear-gradient(63deg, rgba(210,0,245,1) 0%, rgba(245,210,0,1) 100%);
+$retro : 60deg, rgba(245,0,34,1) 0%, rgba(0,245,211,1) 100%;
+$retro2 : 60deg, rgba(0,245,211,1) 0%, rgba(245,0,34,1) 100%;
+$futur : 60deg, rgba(35,245,0,1) 00%, rgba(0,35,245,1) 100%;
+$eclair : 180deg, rgba(35,245,0,1) 0%, rgba(245,210,0,1) 100%;
+$eclair2 : 180deg, rgba(0,35,245,1) 0%, rgba(245,210,0,1) 78%;

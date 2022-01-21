@@ -1,0 +1,21 @@
+//TOOLS
+@import 'tools/mixin';
+@import 'tools/reset-css';
+@import 'tools/colors';
+@import 'tools/fonts';
+@import 'tools/containers';
+
+//ELEMENTS
+@import 'elements/headings-logo';
+@import 'elements/buttons';
+
+//COMPOSANTS
+
+@import 'components/headers';
+@import 'components/slick';
+@import 'components/slick-theme';
+@import 'components/footer';
+
+//PAGES
+@import 'pages/index';
+

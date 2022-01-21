@@ -1,0 +1,18 @@
+// police
+$font: 'Jura';
+//graisses
+$Light :300;
+$Regular : 400;
+$Medium : 500;
+$Semi-bold : 600;
+$Bold : 700;
+
+
+*{
+    font-family: $font;
+}
+
+body{
+    font-size: 18px;
+    color: $main-color;
+}
